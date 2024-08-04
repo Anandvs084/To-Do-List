@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Liststyle.css";
 function Todo() {
-  const [tasks, setTasks] = useState(["Wake up", "Walking", "Eating"]);
+  const [tasks, setTasks] = useState([]);
 
   const handleAdd = () => {
     const newTask = document.getElementById("getTask").value;
